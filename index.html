@@ -1,30 +1,39 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Pic Pal</title>
 </head>
+
 <body>
-    <header class="header">
-    <div>
-    <h2 class="laranja"> Pic Pal</h2>
-    <h3 class="laranja"> Olá, Junin</h3>
-    </div>
+    <header class="header flex justify-center laranja h-20">
+        <div>
+            <h2 class="text-5xl"> Pic Pal</h2>
+            <h3 style="background-color: white;"> Olá, Junin</h3>
+        </div>
     </header>
-    <div class="corpo">
-    <p class="laranja"> Saldo = ******</p>
-    <p> Pix:</p>
-   <img class="pix" src="imagens/Logo-Pix-Png-1024x1024-removebg-preview.png" alt=" logo pix">
-    <p> Pagar:</p>
-    <img class= "boleto" src="imagens/fc6360-sex-shop-remover-logo-boleto-removebg-preview.png" alt=" logo boleto">
-    <p> Recarga:</p>
-    <img class="recarga" src="imagens/pngtree-mobile-phone-refill-icon-for-web-and-mobile-vector-png-image_12421524-removebg-preview.png" alt="logo recarga">
-    <p> Investimentos:</p>
-    <img  class="Investimentos" src="imagens/4221532-removebg-preview.png" alt="logo Investimentos">
-    <p> Gift Card: </p>
-    <img class="gift" src="imagens/png-transparent-gift-card-logo-voucher-credit-card-gift-card-miscellaneous-text-rectangle-removebg-preview.png" alt="logo gift Card">
+    <div class="flex flex-col">
+        <p class="ml-5 text-3xl"> Saldo: </p>
+        <div class="laranja text-4xl w-35 ml-5">******</div>
+        <p class=" text-3xl ml-5"> Pix:</p>
+        <img class="pix" src="imagens/images-removebg-preview.png" alt=" logo pix">
+        <p> Pagar:</p>
+        <img class="boleto" src="imagens/fc6360-sex-shop-remover-logo-boleto-removebg-preview.png" alt=" logo boleto">
+        <p class=" ml-5 text-3xl"> Recarga:</p>
+        <img class="recarga"
+            src="imagens/pngtree-mobile-phone-refill-icon-for-web-and-mobile-vector-png-image_12421524-removebg-preview.png"
+            alt="logo recarga">
+        <p> Investimentos:</p>
+        <img class="investimentos" src="imagens/4221532-removebg-preview.png" alt="logo Investimentos">
+        <p> Gift Card: </p>
+        <img class="gift"
+            src="imagens/png-transparent-gift-card-logo-voucher-credit-card-gift-card-miscellaneous-text-rectangle-removebg-preview.png"
+            alt="logo gift Card">
     </div>
 </body>
+
 </html>

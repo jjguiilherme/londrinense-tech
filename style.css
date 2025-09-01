@@ -1,27 +1,27 @@
 .pix{
-    width: 70px;
-    height: 70px;
+    width: 100px;
 }
 .boleto{
-width: 70px;
-height: 70px;
-margin-left: 400px;
+width: 200px;
+margin-left: 900px;
 }
 .recarga{
-    width: 70px;
-    height: 70px;
-
+    width: 200px;
 }
 .investimentos{
-    
-width: 70px;
-height: 70px;
+width: 150px;
+margin-left: 900px;
 }
 .laranja{
     background-color: chocolate;
 }
-
-
-p{
-    margin-left: 400px;
+.gift{
+width: 300px;
+margin-left: 350px;
+}
+.branca{
+    background-color: white;
+}
+.laranja text-3x1{
+    margin-left: 100px;
 }
